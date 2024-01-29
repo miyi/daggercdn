@@ -1,0 +1,26 @@
+{
+  "name": "daggerjs",
+  "version": "0.9.18",
+  "description": "a new cdn link for the prototype of dagger -v1.0.0",
+  "main": "dagger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyi/daggercdn.git"
+  },
+  "keywords": [
+    "daggers",
+    "dagger.js",
+    "framework",
+    "frontend",
+    "javascript"
+  ],
+  "author": "miyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyi/daggercdn/issues"
+  },
+  "homepage": "https://github.com/miyi/daggercdn#readme"
+}
