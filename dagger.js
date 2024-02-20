@@ -105,7 +105,7 @@ export default ((
     groupStarter: (label) => daggerOptions.log && console.group(label),
     groupEnder: (label) => daggerOptions.log && console.groupEnd(label),
   }))(),
-  context = Symbol("context"),
+  context = Symbol.for("context"),
   currentController = null,
   daggerOptions = { integrity: true },
   directiveQueue = [],
