@@ -2621,7 +2621,7 @@ export default ((
           }
         );
         if (Object.is(resolvedType, "event")) {
-          fields.event = name;
+          fields.name = name;
           if (lifeCycleDirectiveNames[name]) {
             directives[name] = directiveResolver(
               value,
@@ -2728,6 +2728,7 @@ export default ((
                 return directives.controllers.unshift(directive);
               }
             }
+            directives.name = name
             directives.controllers.push(directive);
           }
         }
