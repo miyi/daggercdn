@@ -1,6 +1,6 @@
 {
   "name": "@miyi/dagger.js",
-  "version": "0.9.20",
+  "version": "0.9.21",
   "description": "a new cdn link for the prototype of dagger -v1.0.0",
   "main": "dagger.js",
   "scripts": {

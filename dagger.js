@@ -2621,7 +2621,7 @@ export default ((
           }
         );
         if (Object.is(resolvedType, "event")) {
-          //used to be field.event, but now it's field.name so that controllers and eventHandlers can have a coherent format
+          fields.event = name;
           fields.name = name;
           if (lifeCycleDirectiveNames[name]) {
             directives[name] = directiveResolver(
@@ -2730,7 +2730,7 @@ export default ((
               }
             }
             //added a name to the directive
-            directive.name = name
+            directive.name = name;
             directives.controllers.push(directive);
           }
         }
